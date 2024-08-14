@@ -1,4 +1,6 @@
 import Navbar from "./components/Navbar"
+import TopBar from "./components/TopBar"
+import Hero from "./sections/Hero"
 
 
 function App() {
@@ -8,7 +10,11 @@ function App() {
     <>
   <div className=" main">
 
-    <Navbar/>
+   <div className=" hero-bg">
+    <TopBar/>
+   <Navbar/>
+   <Hero/>
+   </div>
 
   </div>
     </>

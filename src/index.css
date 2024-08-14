@@ -6,3 +6,28 @@
   font-family: "dream";
   src: url("/fonts/chakra.ttf");
 }
+
+@font-face {
+  font-family: "archo";
+  src: url("/fonts/archo.ttf");
+}
+
+
+@layer base {
+
+
+
+  .container-wrapper {
+    @apply max-w-[1240px] w-[90%] mx-auto;
+  }
+
+
+}
+
+.hero-bg{
+ 
+  background-image: url('../public/images/bg-hero.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
