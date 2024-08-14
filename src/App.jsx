@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import TopBar from "./components/TopBar"
+import Feature from "./sections/Feature"
 import Hero from "./sections/Hero"
 
 
@@ -15,6 +16,8 @@ function App() {
    <Navbar/>
    <Hero/>
    </div>
+
+   <Feature/>
 
   </div>
     </>
