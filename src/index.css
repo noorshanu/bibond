@@ -24,6 +24,9 @@
 
 }
 
+body{
+  background-color: black;
+}
 .hero-bg{
  
   background-image: url('../public/images/bg-hero.png');
