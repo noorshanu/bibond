@@ -32,8 +32,10 @@ function AppFeat() {
           </div>
         </div>
 
-        <div>
-            <h1 className=" text-center text-white font-archo font-bold">Partners</h1>
+        <div className=" mt-8">
+            <h1 className=" text-center text-white font-archo font-bold text-xl">Partners</h1>
+
+            <img src="images/partner.png" alt="" className=" mx-auto" />
 
         </div>
       </div>

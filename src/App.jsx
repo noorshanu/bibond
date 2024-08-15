@@ -4,6 +4,7 @@ import About from "./sections/About"
 import AppFeat from "./sections/AppFeat"
 import Feature from "./sections/Feature"
 import Hero from "./sections/Hero"
+import Token from "./sections/Token"
 
 
 function App() {
@@ -24,7 +25,13 @@ function App() {
      <About/>
    </div>
 
+
+
    <AppFeat/>
+
+   <div className=" py-8">
+    <Token/>
+   </div>
 
   </div>
     </>

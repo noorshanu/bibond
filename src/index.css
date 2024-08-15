@@ -36,3 +36,9 @@ body{
   background-size: cover;
   height: 100vh;
 }
+
+.text-grad{
+  background: -webkit-linear-gradient(-90deg, rgba(206,86,0,1) 0%, rgba(248,240,240,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

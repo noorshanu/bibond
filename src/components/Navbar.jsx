@@ -25,40 +25,27 @@ function Navbar() {
             href="/"
             className="text-white font-bold text-lg px-3 py-2 font-archo"
           >
-            Home
+           About Us
           </a>
           <a href="#about" className="text-white font-bold text-lg px-3 py-2">
-            About
+           Product
           </a>
           <a href="#col" className="text-white font-bold text-lg px-3 py-2">
-            Tokenomics
+       Stake
           </a>
 
           <a href="#contact" className="text-white font-bold text-lg px-3 py-2">
-            Contact Us
+         FAQ
+          </a>
+          <a href="#contact" className="text-white font-bold text-lg px-3 py-2">
+        How to buy
           </a>
         </div>
 
         {/* Wallet Connect button */}
         <div className="md:flex items-center">
           <div className=" flex items-center gap-4 text-white  ml-5">
-            <a
-              href="https://x.com/PurplePepe_Sol"
-              rel="noreferrer"
-              target="_blank"
-              className=" text-xl text-white bg-black hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
-            >
-              <BsTwitterX />
-            </a>
-
-            <a
-              href="https://t.me/PurplePepe_sol"
-              target="_blank"
-              rel="noreferrer"
-              className=" text-xl text-white bg-black hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
-            >
-              <FaTelegram />
-            </a>
+          <a href="/" className=" border-[#CE5600] border-2 py-2 px-6 font-archo text-center text-base rounded-3xl "> Connect Wallet</a>
           </div>
         </div>
 
